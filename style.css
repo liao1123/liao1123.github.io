@@ -5,8 +5,8 @@
   --muted: #7a7066;
   --line: #d9d1c5;
   --link: #8a8178;
-  --link-hover: #5f4435;
-  --accent: #845c48;
+  --link-hover: #6f584c;
+  --accent: #9a7564;
 }
 
 * {
@@ -47,8 +47,8 @@ a:focus {
 
 .site-header {
   padding: 32px 0 22px;
-  border-top: 6px double #24211c;
-  border-bottom: 1px solid #342f28;
+  border-top: 6px double #6f675f;
+  border-bottom: 1px solid #8d8378;
 }
 
 .site-header h1 {
@@ -61,7 +61,7 @@ a:focus {
   gap: 44px;
   align-items: start;
   padding: 44px 0 40px;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(217, 209, 197, 0.82);
 }
 
 h1,
@@ -72,7 +72,7 @@ p {
 
 h1 {
   margin-bottom: 0;
-  color: #16130f;
+  color: #26211c;
   font-size: clamp(2.05rem, 4.2vw, 3rem);
   line-height: 1.05;
   font-weight: 700;
@@ -123,7 +123,7 @@ h2 {
   margin-bottom: 12px;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(217, 209, 197, 0.9);
-  color: #1d1915;
+  color: #2a241f;
   font-size: 1.32rem;
   line-height: 1.25;
   letter-spacing: 0;
@@ -140,7 +140,7 @@ ol {
 }
 
 .research-list {
-  border-left: 1px solid rgba(132, 92, 72, 0.28);
+  border-left: 1px solid rgba(154, 117, 100, 0.24);
   list-style: none;
   margin: 4px 0 0 0.2rem;
   padding-left: 1rem;
