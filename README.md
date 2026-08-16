@@ -26,8 +26,7 @@
     - AI safety evaluation
   - Agent Safety
     - search agent
-    - deep/auto research agent
-    - PseudoBench
+    - deep/auto research agent PseudoBench
 - 当前关注的问题：
 - 可选：导师、合作团队、所在城市等信息
 
