@@ -20,8 +20,13 @@
   My research focuses on Trustworthy AI, with an emphasis on improving the safety,
   robustness, and reliability of advanced AI systems. My current research interests
   mainly lie in two directions:
-  - Foundation Model Safety: alignment, backdoor attacks and defenses, and AI safety evaluation.
-  - Agent Safety: security and reliability of search agents and autonomous research agents.
+  - Foundation Model Safety
+    - alignment
+    - backdoor attacks & defenses
+    - AI safety evaluation
+  - Agent Safety
+    - search agent
+    - deep/auto research agent
     - PseudoBench
 - 当前关注的问题：
 - 可选：导师、合作团队、所在城市等信息
