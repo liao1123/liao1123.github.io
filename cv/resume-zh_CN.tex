@@ -1,0 +1,138 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass[8pt]{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{tabularx}
+
+% \usepackage{titlesec}
+% \titlespacing{\section}{0pt}{0.5ex}{0.5ex}  % 控制section标题的上下间距
+
+% \usepackage{enumitem}
+% \setlist[itemize]{itemsep=0.2em, topsep=0.2em, left=1em}
+
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\newcommand{\awarditem}[3]{%
+  \item \makebox[0.9\textwidth][l]{#1 \hfill #2} \\[-0.8em]
+  \textit{#3}
+}
+
+
+% 加照片的话试试表格排版
+\name{廖鑫洋}
+\basicInfo{
+  \email{}22009201118@stu.xidian.edu.cn
+  \phone{}18329953926
+}
+\yourphoto{0.12}
+
+\section{\faGraduationCap 教育背景}
+\datedsubsection{\textbf{西安电子科技大学-网络与信息安全学院-网络空间安全实验班-大四}}{2022.09 - 2026.06}
+% \begin{itemize}
+%     \item \textbf{专业核心课程: } 高等数学（98）、概率论与数理统计（98）、线性代数（96）、计算机组成原理（97）、软件与系统安全（96）、网络空间安全导论（96）、信号与系统（94）、现代密码学（91）
+%     \item \textbf{前五学期学业排名: } 2 / 41
+%     \item \textbf{主干课均分: } 91.34
+% \end{itemize}
+\datedsubsection{\textbf{西安交通大学\&上海人工智能实验室-联合培养-直博}}{2026.09 - 2031.06}
+
+\section{\faCogs\ 科研经历}
+\datedsubsection{\textbf{基于集体潜在表征相似性的后门防御方法}}{2024.03-2024.11}
+\begin{itemize}
+    \item \textbf{研究内容:}
+    本研究聚焦于“\textbf{AI模型后门攻击与防御}”，系统分析现有后门攻防特点，并提出突破可分离假设的新型防御方法，实现高效鲁棒的后门防御，主要包括三个阶段：
+
+    1) 后门抑制: 利用少量可信样本，引导模型进行正常样本的unlearning，突出后门功能；
+
+    2) 特征解耦: 分离干净与后门样本，定位后门目标类，提取后门潜在表征；
+
+    3) 模型净化: 基于余弦损失的unleanring机制清除模型后门，实现模型净化。
+
+    \item \textbf{贡献:} 深度参与方案探索与改进，负责完整实验，方案实现以及论文初稿的撰写工作
+    \item \textbf{成果:} 一项\textbf{发明专利}授权，\textbf{三作}（学生一作）投稿至AAAI（CCF-A类会议）
+
+\end{itemize}
+
+\datedsubsection{\textbf{面向语义检索的多模态加密数据系统}}{2024.07-2025.06}
+\begin{itemize}
+    \item \textbf{研究内容:}
+    本项目聚焦于“\textbf{加密数据库与多模态检索}”技术，构建支持全密态存储与检索的高效多模态密文检索系统，实现云端数据存储与查询过程全密态，保障数据安全。核心方案包括：
+
+    1) 实现加密认证协议，结合国密SM4与后量子签名SLH-DSA保障数据机密性、完整性与源认证；
+
+    2) 基于ImageBind多模态大模型与MLP网络构建哈希模型提取多模态数据的二进制语义特征；
+
+    3) 构建高效的倒排多重索引，利用对称可搜索加密技术实现密态检索。
+
+    \item \textbf{贡献:} 系统方案实现，构建多模态哈希模型，设计加密认证协议
+    \item \textbf{成果:} 荣获“全国密码技术竞赛”特等奖\textbf{（全国仅两项）}，中国国际大学生创新大赛陕西省\textbf{金奖}，并申请一项\textbf{发明专利}与一项\textbf{软件著作}
+\end{itemize}
+
+% \datedsubsection{\textbf{大模型相关安全问题探索}}{2025.06 -- 至今}
+% \begin{itemize}
+%     \item \textbf{RAG Poison Attack：} 调研并分析检索增强生成（RAG）系统的安全隐患，重点关注\textbf{投毒攻击}方式及其防御机制；复现典型攻防算法，并开展攻击效果与防御有效性评估；
+%     \item \textbf{LLM Unlearning：} 探索大语言模型在特定技能维度上的遗忘方法，而非仅依赖训练数据删除，分析其对模型性能与泛化能力的影响；
+%     \item \textbf{Backdoor Editing：} 调研基于模型编辑的后门注入攻击，评估其可行性、隐蔽性及潜在防御对策。
+% \end{itemize}
+
+% \datedsubsection{\textbf{}}{2025.03-至今}
+% \begin{itemize}
+%     \item \textbf{研究内容:}
+
+%     \item \textbf{贡献:}
+%     \item \textbf{成果:}
+% \end{itemize}
+
+\section{\faCogs\ 专利授权/申请}
+\begin{itemize}
+    \item 王祥宇, \textbf{廖鑫洋}, 黄炜锴, 马鑫迪, 马建峰. 一种面向加密数据的跨模态检索方法、系统、设备及介质: 中国, CN202510532643.9[P]. 申请日: 2025-04-25.
+    \item 杨易龙, 马卓, \textbf{廖鑫洋}, 刘洋, 董伟生. 一种基于潜在表征相似性的卷积神经网络后门防御方法: 中国, CN119814447B/ZL202411977515.7 2025.9 \textbf{[已授权]}
+    % \item 王祥宇，魏朝旭，\textbf{廖鑫洋}，马鑫迪，马建峰. 多模态加密数据库检索系统V1.0, 登记号: 2025SR1144332, 登记批准日期: 2025年07月02日.
+\end{itemize}
+
+\section{\faUsers\ 竞赛经历}
+\vspace{-1em}
+\begin{multicols}{2}
+\begin{itemize}
+    \item 全国密码技术竞赛 \textbf{国家级特等奖}
+    \item 美国大学生数学建模竞赛 \textbf{国际级二等奖}
+    \item 全国大学生数学竞赛 \textbf{省级一等奖}
+    \item 全国大学生数学建模竞赛 \textbf{国家级二等奖}
+    \item 全国大学生统计建模竞赛 \textbf{省级一等奖}
+    \item 中国国际大学生创新大赛 \textbf{省级金奖}
+    \end{itemize}
+\end{multicols}
+\vspace{-1em}
+
+% \begin{itemize}
+%     \item \datedline{全国密码技术竞赛}  { \textbf{(全国仅两项)国家级特等奖}\space\space2024.11}
+%     \item \datedline{全国大学生数学建模竞赛}  {\textbf{(Top 2\%)国家级二等奖}\space\space2023.11}
+%     \item \datedline{国际大学生数学建模竞赛}{\textbf{国际级二等奖}\space\space 2025.05}
+%     \item \datedline{全国大学生数学竞赛}{\textbf{省级一等奖}\space\space2023.11}
+% \end{itemize}
+
+
+    % \item \datedline{西安电子科技大学“挑战杯”校赛}{\textbf{校级一等奖}\space\space 2025.05}
+    % \item \datedline{西安电子科技大学数学建模校赛}{\textbf{校级二等奖}\space\space 2023.05}
+
+
+% \section{\faCogs\ 个人陈述}
+% \begin{itemize}
+%     % \item \textbf{技能工具:} 熟练掌握Python, C/C++, Pytorch框架, 擅长使用Origin、PPT等绘图工具
+%     \item \textbf{荣誉奖励:} 国家励志奖学金、奇安信助学金、一等学业奖学金、校级优秀学生
+
+%     \item \textbf{自我评价:}
+%     \begin{itemize}
+%         \item 认真踏实，待人真诚，具备较强的责任感，渴望创造有意义的成果
+%         \item 致力于解决关于AI的鲁棒性和隐私性等安全问题
+%     \end{itemize}
+% \end{itemize}
+
+\end{document}
