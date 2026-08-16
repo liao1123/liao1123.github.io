@@ -58,7 +58,6 @@
 - arXiv: https://arxiv.org/abs/2606.18060
 - PDF: https://arxiv.org/pdf/2606.18060
 - Code: https://github.com/AI45Lab/PseudoBench
-- TL;DR: PseudoBench evaluates whether autonomous research agents can resist pseudoscientific premises; current agents often turn them into persuasive reports, highlighting the need for scientific alignment.
 - Submitted: 2026.06.16
 
 ## Publications
