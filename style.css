@@ -163,22 +163,10 @@ ol {
   margin-top: 0;
 }
 
-.paper-tag {
-  border: 1px solid rgba(132, 92, 72, 0.5);
+.paper-link {
   color: var(--accent);
-  display: inline-block;
-  font-size: 0.86rem;
-  line-height: 1.25;
-  margin-left: 6px;
-  padding: 1px 6px;
-  text-decoration: none;
-  vertical-align: 0.06em;
-}
-
-.paper-tag:hover,
-.paper-tag:focus {
-  border-color: currentColor;
-  color: var(--link-hover);
+  margin-left: 4px;
+  text-decoration-thickness: 1px;
 }
 
 .publication-list {
