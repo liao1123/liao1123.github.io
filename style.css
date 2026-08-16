@@ -22,8 +22,8 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 18px;
-  line-height: 1.78;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 a {
@@ -73,7 +73,7 @@ p {
 h1 {
   margin-bottom: 0;
   color: #16130f;
-  font-size: clamp(2.05rem, 4.2vw, 3rem);
+  font-size: clamp(1.9rem, 3.6vw, 2.65rem);
   line-height: 1.05;
   font-weight: 700;
   letter-spacing: 0;
@@ -103,7 +103,7 @@ h1 {
 
 .profile-links a {
   color: var(--link);
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.4;
 }
 
@@ -127,7 +127,7 @@ h2 {
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(217, 209, 197, 0.9);
   color: #1d1915;
-  font-size: 1.32rem;
+  font-size: 1.16rem;
   line-height: 1.25;
   letter-spacing: 0;
 }
@@ -156,7 +156,7 @@ ol {
 
 .interest-papers {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   line-height: 1.55;
   list-style: none;
   margin: 6px 0 0;
@@ -192,12 +192,12 @@ ol {
 }
 
 .venue {
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .section-note {
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.88rem;
   font-weight: 400;
   margin-left: 10px;
 }
@@ -230,7 +230,7 @@ ol {
 
 @media (max-width: 700px) {
   body {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .page {
