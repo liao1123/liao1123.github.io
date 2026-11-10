@@ -1,0 +1,41 @@
+% !TEX program = pdflatex
+% Build from the repository root with: make -C cv
+\documentclass{resume}
+
+\begin{document}
+\cvheader{Xinyang Liao}{
+  \href{mailto:liaoxinyang@pjlab.org.cn}{liaoxinyang@pjlab.org.cn}\cvsep
+  \href{tel:18329953926}{18329953926}
+}
+
+\cvsection{Education}
+\cventry{\textbf{Xi'an Jiaotong University}, EngD in Control Engineering}{Sept. 2026 -- June 2031}
+\begin{itemize}
+  \item Supervised by \href{https://scholar.google.com/citations?user=eq3EvB4AAAAJ}{Prof. Na Lu}.
+\end{itemize}
+\cventry{\textbf{Xidian University}, B.E. in Cyberspace Security (Elite Class)}{Sept. 2022 -- June 2026}
+\begin{itemize}
+  \item GPA: 3.8/4.0.
+\end{itemize}
+
+\cvsection{\texorpdfstring{Publications\hfill{\normalfont\small\itshape Note: \textsuperscript{*} Equal contribution.}}{Publications}}
+\publication
+  {\textbf{Xinyang Liao}, Lingyu Li, Kaicheng Shen, Yang Yao, Na Lu, Yan Teng, Xia Hu}
+  {CompanionSafe: From Multi-turn Safety Evaluation to Guardrails for AI Companions}
+  {\href{https://arxiv.org/abs/2610.18095}{arXiv preprint, 2026}}
+\begin{itemize}
+  \item Introduces CompanionEval, a persona-driven multi-turn safety benchmark with 1,300 cases across 13 categories, and CompanionGuard, trained on turn-localized safe/unsafe prefixes to identify companion-specific risks.
+\end{itemize}
+
+\smallskip
+\publication
+  {\textbf{Xinyang Liao}\textsuperscript{*}, Lingyu Li\textsuperscript{*}, Huacan Liu\textsuperscript{*}, Tianle Gu, Yang Yao, Tong Zhu, Yan Teng, Yingchun Wang}
+  {PseudoBench: Measuring How Agentic Auto-Research Fuels Pseudoscience}
+  {\href{https://arxiv.org/abs/2606.18060}{arXiv preprint, 2026}}
+\begin{itemize}
+  \item Presents a benchmark of 200 claim--evidence pairs in five categories to assess agentic auto-research systems. Evaluates generated reports for report quality, pseudoscience alignment, and persuasiveness.
+\end{itemize}
+\cvsection{Internship}
+\textbf{Shanghai AI Lab}, Safe and Trustworthy Center, Research Intern.
+Supervised by \href{https://tengyan666.github.io/}{Dr. Yan Teng}.
+\end{document}
